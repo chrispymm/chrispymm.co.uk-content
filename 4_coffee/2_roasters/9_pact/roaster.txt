@@ -1,0 +1,17 @@
+Title: Pact
+
+----
+
+Website: https://www.pactcoffee.com/
+
+----
+
+Logo: - file://29xy9f3XkItcI6i6
+
+----
+
+Debug: 
+
+----
+
+Uuid: 6CeEMWjxRQeE4sIm

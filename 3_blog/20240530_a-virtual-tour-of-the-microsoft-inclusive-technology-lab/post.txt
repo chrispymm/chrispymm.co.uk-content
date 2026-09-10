@@ -1,0 +1,23 @@
+Title: A (virtual) tour of the Microsoft Inclusive Technology lab
+
+----
+
+Text:
+
+As part of my role in the MoJ I'm part of the 'accessibility champions' team, which simply means I am an advocate for accessibility through my work.
+
+As part of this we were fortunate enough to be given a virtual tour of (link: https://www.microsoft.com/en-us/inclusive-tech-lab text: Microsoft's Inclusive Technology Lab) by (link: https://www.linkedin.com/in/brycejohnson/ text: Bryce Johnson)
+
+This was a fascinating tour and contained loads of insights into the work Microsoft is doing across a whole spectrum of design, including a look at the Xbox Adaptive Controller and how it allows users with a whole range of disabilities to game on XBox.
+
+I think the biggest takeaway for me was flexibility and modularity of the solutions they design.  The nature of disabilities are unique to each person, and so a solution that works for one person may not work for another.  This means that in order for the products they design to have the greatest impact they need to be flexible and adaptable. 
+
+This is why the XBox Adaptive Controller works with standard switches, allowing users to place the controls wherever they have movement in their body, and why rather than decide on certain keys on a keyboard to use as landmarks, they created the (link: https://www.microsoft.com/en-gb/d/surface-adaptive-kit/8rdmhd3kfc3r?activetab=pivot:overviewtab text: Surface Adaptive Kit) allowing users to place tactile stickers wherever they need them on their device.
+
+----
+
+Date: 2024-05-30
+
+----
+
+Uuid: Yh1IqE50mspnRQHF

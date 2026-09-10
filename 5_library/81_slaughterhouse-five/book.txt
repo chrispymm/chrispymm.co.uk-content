@@ -1,0 +1,29 @@
+Title: Slaughterhouse Five
+
+----
+
+Cover: - file://OpVQLae6EN2p6eK5
+
+----
+
+Author: Kurt Vonnegut
+
+----
+
+Completion-date: 2026-05-19
+
+----
+
+Unfinished: false
+
+----
+
+Rating: 3
+
+----
+
+Comments: 
+
+----
+
+Uuid: 8exvilptxXcEW6Gb

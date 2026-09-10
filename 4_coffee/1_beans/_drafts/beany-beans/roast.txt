@@ -1,0 +1,33 @@
+Title: Beany beans
+
+----
+
+Cultivar: Bourbon
+
+----
+
+Process: Washed
+
+----
+
+Tasting-notes: Caramel, chocolate, nuts
+
+----
+
+Roaster: 
+
+----
+
+Origin: Brazil
+
+----
+
+Uuid: 1AFUe12U68YCSysY
+
+----
+
+Comments: 
+
+----
+
+Rating: 

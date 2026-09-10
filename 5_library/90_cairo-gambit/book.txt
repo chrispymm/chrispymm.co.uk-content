@@ -1,0 +1,29 @@
+Title: Cairo Gambit
+
+----
+
+Cover: - file://9aqEOTMGwytKV7Kp
+
+----
+
+Author: S W Perry
+
+----
+
+Completion-date: 2026-08-14
+
+----
+
+Unfinished: false
+
+----
+
+Rating: 3.5
+
+----
+
+Comments: 
+
+----
+
+Uuid: j8CFj3SUELbyckHz

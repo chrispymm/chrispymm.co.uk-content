@@ -1,0 +1,53 @@
+Title: Syncing reading progress from Kobo to Calibre
+
+----
+
+Text:
+
+While updating this site I wanted to add my reading history into the library section.  To do this required me to find out when I completed reading my books on my Kobo eReader.  This information wasn't available in the UI, but I figured it must be accessible somehow.  
+
+It turns out it is possible to get this information using Calibre and a plugin called Kobo Utilities.  This is not super well documented, and the solution is buried in forum answers, so I thought I'd document it.
+
+
+## Install the Kobo Utilities plugin
+Open `Preferences` and got to the plugins section.  Click the 'Get new plugins' button. You should then be able to search for and install the 'Kobo Utilities' plugin.
+
+
+## Add custom columns
+There are 4 bits of information you can sync:
+* Current read location
+* Read percentage
+* Rating
+* Last read date
+
+To access this information you need to set up custom columns in your Calibre library to store it. To add the columns, right click on any of the headers in your library and select 'Add your own columns' and then click 'Add custom column' and then configure the columns you want according to the table below. 
+
+| Lookup name | Column name | Column type |
+|-------------|-------------|-------------|
+|koboreadloc| Read location | Text, column shown in tag browser |
+|koboreadpct| Read percentage | Integers |
+|koborating| Rating | Ratings, shown with stars, or Integers|
+|kobolastread| Last read | Date |
+
+
+## Configure the plugin
+Once you've added the columns you want.  Go to the Kobo utilities 'Configure plugin' settings. This will allow you to connect the fields you just created.
+
+The plugin has 2 actions for this data: 'store' and 'restore'.  Store pulls the information from your device to the Calibre library, and 'restore' pushes data from Calibre to the Kobo device.
+
+The plugin allows you to configure a couple of options around how you want the syncing to occur.  I selected 'store on connect' and 'only if newer', meaning that data will be pushed from the device into Calibre when I connect my Kobo and only the changes since the last connect will be updated.
+
+(link: https://www.mobileread.com/forums/showthread.php?t=215339 text: Original source)
+
+## Update May 2024
+It seems the plugin has been updated since I wrote this (or I was using an older version due to having an older version of Calibre on another laptop) and configuration is now much simpler.  
+
+You can now simply install the plugin, click the button on the toolbar and it will take you to the configuration screen, from which you can create the columns you want with the correct settings.
+
+----
+
+Date: 2024-03-22
+
+----
+
+Uuid: jHrAVm9e9I59S03m

@@ -1,0 +1,29 @@
+Title: Flesh
+
+----
+
+Cover: - file://FGtJXquIJabGlYqP
+
+----
+
+Author: David Szalay
+
+----
+
+Completion-date: 2026-07-10
+
+----
+
+Unfinished: false
+
+----
+
+Rating: 3.5
+
+----
+
+Comments: 
+
+----
+
+Uuid: 0ypASEx8rR9cQgeM

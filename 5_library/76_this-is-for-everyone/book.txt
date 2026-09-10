@@ -1,0 +1,29 @@
+Title: This is for Everyone
+
+----
+
+Cover: - file://mIpj08YqlOFXjXOv
+
+----
+
+Author: Tim Berners-Lee
+
+----
+
+Completion-date: 2026-04-25
+
+----
+
+Unfinished: false
+
+----
+
+Rating: 4.5
+
+----
+
+Comments: 
+
+----
+
+Uuid: LMBTv5jqfGWLSPGq

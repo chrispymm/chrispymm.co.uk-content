@@ -1,0 +1,33 @@
+Title: New bean
+
+----
+
+Cultivar: Bourbon
+
+----
+
+Process: Washed
+
+----
+
+Tasting-notes: Lemon, orange, banana
+
+----
+
+Roaster: 
+
+----
+
+Origin: Somewhere
+
+----
+
+Uuid: JzFIfTNBRRlnaaWW
+
+----
+
+Comments: 
+
+----
+
+Rating: 

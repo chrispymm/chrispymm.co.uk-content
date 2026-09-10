@@ -1,0 +1,29 @@
+Title: Termush
+
+----
+
+Cover: - file://ykZx5qI9vnA45YLU
+
+----
+
+Author: Sven Holm
+
+----
+
+Completion-date: 2026-07-06
+
+----
+
+Unfinished: false
+
+----
+
+Rating: 3.5
+
+----
+
+Comments: 
+
+----
+
+Uuid: 0thqpqRbi4VYbvgH

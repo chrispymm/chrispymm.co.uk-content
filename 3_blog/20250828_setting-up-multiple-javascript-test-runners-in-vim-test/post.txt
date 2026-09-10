@@ -1,0 +1,64 @@
+Title: Setting up multiple javascript test runners in vim-test
+
+----
+
+Text:
+
+I use neovim as my editor and I use the (link: https://github.com/vim-test/vim-test text: vim-test) plugin in order to be able to run the tests in the file I am currently editing.  This means that when I'm editing a jest spec file I can run either <kbd><leader>tf</kbd> or <kbd><leader>tt</kbd> to run the tests in the whole file, or just the test I'm currently editing respectively.  This is a great workflow and speed up testwriting immensely.
+
+Recently we added (link: https://playwright.dev/ text: Playwright) to our project to be able to run full end-to-end tests.  This broke my workflow slightly as pressing the keyboard shortcuts above would attempt to run the test files using jest, which obviously didn't work.  It is possible to get jest to run playwright specs, but that seemed overly complicated and required a bunch of config I couldn't really be bothered with.  Surely it was easier to just get vim-test to run the right test-runner? 
+
+Vim-test, has a way of configuring a file pattern for choosing which runner to use, so this should be easy.
+
+```lua
+-- Jest specs end in .spec.js (default)
+vim.g['test#javascript#jest#file_pattern'] = '\\v((__tests__/.*|(spec|test))\\.(js|jsx|mjs|coffee|ts|tsx))$'
+
+-- Playwright specs also end in .spec.js, but only live in an e2e directory
+vim.g['test#javascript#playwright#file_pattern'] = '\\v(e2e/.*(spec|test))\\.(js|jsx|mjs|coffee|ts|tsx)$'
+```
+
+Unfortunately, this alone doesn't seem to work.  I couldn't quite seem to work out why, but it seems that vim-test uses a combination of defaults and educated guessing to choose the runner, and these settings don't seem to override the _choice_ of runner.
+
+In order to do that I had to setup an autocommand
+
+```lua
+-- Function to determine which runner to use based on file path
+local function get_test_runner()
+  local current_file = vim.fn.expand('%:p')
+  if string.match(current_file, '/e2e/.*%.js$') or
+     string.match(current_file, '/e2e/.*%.jsx$') or
+     string.match(current_file, '/e2e/.*%.mjs$') or
+     string.match(current_file, '/e2e/.*%.coffee$') or
+     string.match(current_file, '/e2e/.*%.ts$') or
+     string.match(current_file, '/e2e/.*%.tsx$') then
+    return 'playwright'
+  else
+    return 'jest'
+  end
+end
+
+-- Auto-set the runner based on current file
+vim.api.nvim_create_autocmd('BufEnter', {
+  group = vim.api.nvim_create_augroup('VimTestRunner', { clear = true }),
+  pattern = {'*.js', '*.jsx', '*.mjs', '*.coffee', '*.ts', '*.tsx'},
+  callback = function()
+    local runner = get_test_runner()
+    vim.g['test#javascript#runner'] = runner
+  end,
+})
+```
+
+The function `get_test_runner()` simply checks if the file is in an e2e directory and if it is returns `playwright` otherwise returns `jest`
+
+The second block creates an autocommand that runs when we enter a buffer, checks the filetype of the buffer and then runs the `get_test_runner` function and sets the vim-test runner using a vim global.
+
+So far this has been working well and I can use the same keyboard commands to run my tests while editing no matter which test file I'm currently editing.
+
+----
+
+Date: 2025-08-28
+
+----
+
+Uuid: COVqGKeT30SlIW8k
