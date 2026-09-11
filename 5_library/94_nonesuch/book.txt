@@ -1,0 +1,29 @@
+Title: Nonesuch
+
+----
+
+Cover: - file://xcjWP4HjyAqDkZco
+
+----
+
+Author: Francis Spufford
+
+----
+
+Completion-date: 2026-06-13
+
+----
+
+Unfinished: false
+
+----
+
+Rating: 4
+
+----
+
+Comments: 
+
+----
+
+Uuid: kRjRczOktSUCIKwF
