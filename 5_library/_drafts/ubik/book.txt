@@ -1,0 +1,29 @@
+Title: Ubik
+
+----
+
+Cover: 
+
+----
+
+Author: Philip K. Dick
+
+----
+
+Completion-date: 
+
+----
+
+Unfinished: false
+
+----
+
+Rating: 
+
+----
+
+Comments: 
+
+----
+
+Uuid: ykpdn1lvcr07ucmj
