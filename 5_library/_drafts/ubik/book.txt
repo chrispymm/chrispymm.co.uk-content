@@ -26,8 +26,4 @@ Comments:
 
 ----
 
-Uuid: 2qngx4afs49xf14w
-
-----
-
-Debug: * http://books.google.com/books/publisher/content?id=eMUtAwAAQBAJ&printsec=frontcover&img=1&zoom=6&edge=none&imgtk=AFLRE70KX_iD13XUKQcgpWlVKM0T0TS-MsPzLURWbqcBpL9kdMiabQeTm6oPmvzaBFhbD65M0ilhucBvySTkleGt2lieNhLZf643Y_FtjBZs9XZW2-1m-wEIvG0kK9AQLmt7CXrE3uHK&source=gbs_api
+Uuid: 2bv8e1y80jvxwry1

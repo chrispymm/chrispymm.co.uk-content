@@ -1,5 +1,0 @@
-Uuid: vj1db1kvdb1i8eib
-
-----
-
-Color: #E1003C,#28131C
