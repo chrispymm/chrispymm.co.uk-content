@@ -1,0 +1,36 @@
+Title: Ryamukona
+
+----
+
+Roaster:
+
+- 
+  uuid: page://CKEilP7FglXw7wkf
+
+----
+
+Origin: Burundi
+
+----
+
+Process: Wet fermented, washed
+
+----
+
+Cultivar: Red bourbon
+
+----
+
+Tasting-notes: Bramble jelly, black tea, juicy
+
+----
+
+Comments: 
+
+----
+
+Rating: 
+
+----
+
+Uuid: bbsxmyyb2cnlvxgz
