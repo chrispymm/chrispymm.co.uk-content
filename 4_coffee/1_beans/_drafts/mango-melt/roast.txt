@@ -1,0 +1,36 @@
+Title: Mango Melt
+
+----
+
+Roaster:
+
+- 
+  uuid: page://2yR6FepnbpSAAUgO
+
+----
+
+Origin: Colombia
+
+----
+
+Process: Washed, thermal shock
+
+----
+
+Cultivar: Caturra
+
+----
+
+Tasting-notes: Tropical fruit, mango, toffee
+
+----
+
+Comments: 
+
+----
+
+Rating: 
+
+----
+
+Uuid: mzubdcbeviiu2baf
