@@ -1,0 +1,36 @@
+Title: Encanto Java
+
+----
+
+Roaster:
+
+- 
+  uuid: page://XItvAy2nBf7eY0oD
+
+----
+
+Origin: Colombia
+
+----
+
+Process: Washed
+
+----
+
+Cultivar: Java
+
+----
+
+Tasting-notes: White peach, lemon, honey
+
+----
+
+Comments: 
+
+----
+
+Rating: 
+
+----
+
+Uuid: vqkapynzramsgjgp
