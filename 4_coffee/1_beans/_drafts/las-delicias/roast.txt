@@ -1,0 +1,36 @@
+Title: Las Delicias
+
+----
+
+Roaster:
+
+- 
+  uuid: page://UBApW0N28iBKskET
+
+----
+
+Origin: Honduras
+
+----
+
+Process: Natural
+
+----
+
+Cultivar: Red Catuai, Pacas, Caturra
+
+----
+
+Tasting-notes: Date, persimmon, vanilla
+
+----
+
+Comments: 
+
+----
+
+Rating: 
+
+----
+
+Uuid: irniqorwfxsyxhim
