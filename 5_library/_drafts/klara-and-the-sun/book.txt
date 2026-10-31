@@ -27,3 +27,7 @@ Comments:
 ----
 
 Uuid: k7zrscwsdraovui3
+
+----
+
+Debug: * http://books.google.com/books/publisher/content?id=Z2z0EQAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE70woLKA_I83qYq0EqQyCa-5X7rJBVj9y_xxphfdmCbuBdSoh8NFPEMgyKV4WIQYQ8t3KgJ-B473OwWhYigZoTKjWhhkWFLFpNpKxphIC5CaITqR-rBIb0KBEDiihRFB_0eSnwHL&source=gbs_api
