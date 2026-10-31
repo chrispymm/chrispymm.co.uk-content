@@ -2,4 +2,4 @@ Uuid: 0tnt8xtib42p2ah5
 
 ----
 
-Color: #213D64,#465A75
+Color: #283C61,#45536D
